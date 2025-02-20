@@ -6,9 +6,9 @@ public class BlogsAndInsightsTabLocators {
 	
 	public By BlogsAndInsightsBtn = By.cssSelector(".brz-css-e05I5.brz-css-qTXpT.brz-menu.brz-menu__preview > .brz-menu__ul  a[title='Blogs & Insights']");
 	
-	public By READ_MORE_ABOUT_US = By.cssSelector("div#omnhvdhrccsfmwqoxkjazkvrvkogltscqmhl > .brz-a.brz-btn.brz-css-dUM8w.brz-css-fxdkC");
+	public By READ_MORE_ABOUT_US = By.xpath("//span[contains(text(), 'READ MORE ABOUT US')]");
 	
-	public By CONTACT_US = By.cssSelector("div#fxiqixxcxhnojdktlmiihatvxfccfmvtdipl > .brz-a.brz-btn.brz-css-fxdkC.brz-css-mjrfP");
+	public By CONTACT_US = By.cssSelector("#fxiqixxcxhnojdktlmiihatvxfccfmvtdipl [contenteditable]");
 	
 	public By PAGE_2 = By.cssSelector(".brz-posts__pagination li:nth-of-type(2) .page-numbers");
 	

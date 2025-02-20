@@ -50,49 +50,49 @@ public class HomeTabTest extends BaseTest {
 	}
 	
 	@Test(priority = 6, retryAnalyzer = RetryAnalyzer.class)
-	public void VIEW_ALL_SERVICES_HomeTab_TC_005() {
+	public void VIEW_ALL_SERVICES_HomeTab_TC_006() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickViewAllServices());
 	}
 	
 	@Test(priority = 7, retryAnalyzer = RetryAnalyzer.class)
-	public void ARE_YOU_READY_TO_START_HomeTab_TC_005() {
+	public void ARE_YOU_READY_TO_START_HomeTab_TC_007() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickAreYouReadyToStart());
 	}
 	
 	@Test(priority = 8, retryAnalyzer = RetryAnalyzer.class)
-	public void ABOUT_US_HomeTab_TC_005() {
+	public void ABOUT_US_HomeTab_TC_008() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickAboutUs());
 	}
 	
 	@Test(priority = 9, retryAnalyzer = RetryAnalyzer.class)
-	public void AVAILABLE_JOBS_HomeTab_TC_005() {
+	public void AVAILABLE_JOBS_HomeTab_TC_009() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickAvailableJobs());
 	}
 	
 	@Test(priority = 10, retryAnalyzer = RetryAnalyzer.class)
-	public void CONTACT_US_HomeTab_TC_005() {
+	public void CONTACT_US_HomeTab_TC_010() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickContactUs());
 	}
 	
 	@Test(priority = 11, retryAnalyzer = RetryAnalyzer.class)
-	public void Image_Slider_GET_IN_TOUCH_HomeTab_TC_005() {
+	public void Image_Slider_GET_IN_TOUCH_HomeTab_TC_011() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickImageSliderGetInTouch());
 	}
 	
 	@Test(priority = 12, retryAnalyzer = RetryAnalyzer.class)
-	public void Image_Slider_FIND_OUT_MORE_ABOUT_US_HomeTab_TC_005() {
+	public void Image_Slider_FIND_OUT_MORE_ABOUT_US_HomeTab_TC_012() {
 		HomeTab tab = new HomeTab(driver);
 		Interactions interact = new Interactions(driver);
 		interact.executeWithDelay(()-> tab.clickImagSliderFindOutMoreAboutUs());

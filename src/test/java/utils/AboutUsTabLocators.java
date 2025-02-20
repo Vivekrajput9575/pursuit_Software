@@ -14,11 +14,11 @@ public class AboutUsTabLocators {
 	
 	public By CONTACT_US = By.cssSelector("div#qdfrzlszysqpbwymemxrklplgdsxqcksrokj > .brz-a.brz-btn.brz-css-krABm.brz-css-np5vM.brz-css-sZoDx.brz-css-saHZy");
 	
-	public By COOKIE_POLICY = By.cssSelector(".brz-css-gsWXE [title='Cookie Policy']");
+	public By COOKIE_POLICY = By.xpath("/html/body/div/footer//div[@class='brz-column__items brz-css-rlt9p brz-css-xqXSc']/div[@class='brz-css-eMVG0 brz-wrapper']/div/nav/ul[@class='brz-menu__ul']//a[@title='Cookie Policy']/span[@class='brz-span']");
 	
-	public By TERMS_AND_CONDITIONS = By.cssSelector(".brz-css-gsWXE [title='Terms \\& Conditions']");
+	public By TERMS_AND_CONDITIONS = By.xpath("/html/body/div/footer//div[@class='brz-column__items brz-css-rlt9p brz-css-xqXSc']/div[@class='brz-css-eMVG0 brz-wrapper']/div/nav/ul[@class='brz-menu__ul']//a[@title='Terms & Conditions']/span[@class='brz-span']");
 	
-	public By PRIVACY_POLICY = By.cssSelector(".brz-css-gsWXE [title='Privacy Policy']");
+	public By PRIVACY_POLICY = By.xpath("/html/body/div/footer//div[@class='brz-column__items brz-css-rlt9p brz-css-xqXSc']/div[@class='brz-css-eMVG0 brz-wrapper']/div/nav/ul[@class='brz-menu__ul']//a[@title='Privacy Policy']/span[@class='brz-span']");
 	
 	public By LINKED_IN_ICON = By.cssSelector("div#nZZATpa1AAfw  .brz-a");
 	

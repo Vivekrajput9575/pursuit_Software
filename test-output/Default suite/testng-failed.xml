@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.ContactUsTabTest">
+      <class name="test.BlogsAndInsightsTest">
         <methods>
-          <include name="setup"/>
           <include name="afterMethod"/>
-          <include name="Validate_SMS_OUTREACH_functionality_click_TC_005"/>
+          <include name="setup"/>
+          <include name="Validate_ReadMoreAboutUs_Button_Click_TC_002"/>
         </methods>
-      </class> <!-- test.ContactUsTabTest -->
+      </class> <!-- test.BlogsAndInsightsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

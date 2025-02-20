@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 public class HomeTabLocators {
 	public By HomeTabBtn = By.cssSelector(".brz-css-e05I5.brz-css-qTXpT.brz-menu.brz-menu__preview > .brz-menu__ul  a[title='Home']");
 	
-	public By LeftImageSlider = By.cssSelector(".brz-css-aaWuZ.brz-css-t7HUt.brz-section  .brz-slick-slider__arrow.brz-slick-slider__arrow-prev.slick-arrow");
+	public By LeftImageSlider = By.cssSelector(".brz-css-ayHHT.brz-css-ckk3h.brz-section  .brz-slick-slider__arrow.brz-slick-slider__arrow-prev.slick-arrow > .align-\\[initial\\].brz-icon-svg");
 	
-	public By RightImageSlider = By.cssSelector(".brz-css-aaWuZ.brz-css-t7HUt.brz-section  .brz-slick-slider__arrow.brz-slick-slider__arrow-next.slick-arrow");
+	public By RightImageSlider = By.cssSelector(".brz-css-ayHHT.brz-css-ckk3h.brz-section  .brz-slick-slider__arrow.brz-slick-slider__arrow-next.slick-arrow > .align-\\[initial\\].brz-icon-svg");
 	
 	public By BottomImageSlider = By.cssSelector(".brz-css-dFO0G.brz-css-t7HUt.brz-section  .brz-slick-slider__arrow.brz-slick-slider__arrow-next.slick-arrow > .align-\\[initial\\].brz-icon-svg");
 	

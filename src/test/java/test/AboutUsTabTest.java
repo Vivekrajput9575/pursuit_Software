@@ -1,5 +1,6 @@
 package test;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -70,6 +71,8 @@ public class AboutUsTabTest extends BaseTest {
 		initialTest();
 		AboutUsTab aut = new AboutUsTab(driver);
 		Interactions interact = new Interactions(driver);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,4000)");
 		interact.executeWithDelay(() -> aut.clickCookiePolicyBtn());
 	}
 	
@@ -78,6 +81,8 @@ public class AboutUsTabTest extends BaseTest {
 		initialTest();
 		AboutUsTab aut = new AboutUsTab(driver);
 		Interactions interact = new Interactions(driver);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,4000)");
 		interact.executeWithDelay(() -> aut.clickTermsAndConditionsBtn());
 	}
 	
@@ -86,6 +91,8 @@ public class AboutUsTabTest extends BaseTest {
 		initialTest();
 		AboutUsTab aut = new AboutUsTab(driver);
 		Interactions interact = new Interactions(driver);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,4000)");
 		interact.executeWithDelay(() -> aut.clickPrivacyPolicyBtn());
 	}
 	

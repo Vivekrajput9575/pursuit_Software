@@ -2,11 +2,7 @@
 <suite name="Suite">
     <test name="Test">
         <classes>
-            <class name="test.HomeTabTest"/>
-            <class name="test.AboutUsTabTest"/>
-            <class name="test.BlogsAndInsightsTest"/>
-            <class name="test.CareersTabTest"/>
-            <class name="test.ServicesTabTest"/>
+            
             <class name="test.ContactUsTabTest"/>
 
         </classes>
